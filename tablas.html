@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Barra de Navegación</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="/texto.html">TEXTO</a>
+                </li>
+                <li>
+                    <a href="/imagenes.html">IMAGENES</a>
+                </li>
+                <li>
+                    <a href="/tablas.html">TABLAS</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+s    <div class="contenido">
+        <div class="tabla-combinada">
+            <h2>Tabla 1</h2>
+            <table>
+                <caption>Información de Productos</caption>
+                <thead>
+                    <tr>
+                        <th>Producto</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Producto 1</td>
+                        <td>$10.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto 2</td>
+                        <td>$15.00</td>
+                    </tr>
+                    <tr>
+                        <td>Producto 3</td>
+                        <td>$20.00</td>
+                    </tr>
+                </tbody>
+            </table>
+    </div>
+    <!-- Tabla combinada 2 -->
+    <div class="tabla-combinada">
+        <h2>Tabla  2</h2>
+        <table>
+            <caption>Horarios de Clases</caption>
+            <thead>
+                <tr>
+                    <th>Hora</th>
+                    <th>Lunes</th>
+                    <th>Martes</th>
+                    <th>Miercoles</th>
+                    <th>Jueves</th>
+                    <th>Viernes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>7:15 - 08:45</td>
+                    <td>SIS-311 (1) [LC/A1-7]</td>
+                    <td></td>
+                    <td>SIS-311 (1) [LC/A1-7]</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>09:00 - 10:30</td>
+                    <td></td>
+                    <td>SIS-211 (1) [LC/A1-7]</td>
+                    <td>SIS-311 (1) [LC/A1-7]</td>
+                    <td>SIS-211 (1) [LC/A1-7]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>10:45 - 11:30</td>
+                    <td></td>
+                    <td>SIS-211 (1) [LC/A1-7]</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>12:30 - 14:00</td>
+                    <td></td>
+                    <td>ECO-100 (3) [A/PB-3]</td>
+                    <td></td>
+                    <td>ECO-100 (3) [A/PB-3]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>16:00 - 17:30</td>
+                    <td>LEN-104 (6) [A/PB-4]</td>
+                    <td>SIS-241 (1) [LC/A1-7]</td>
+                    <td>LEN-104 (6) [A/PB-4]</td>
+                    <td>SIS-241 (1) [LC/A1-7]</td>
+                    <td>LEN-104 (6) [A/PB-4]</td>
+                </tr>
+                <tr>
+                    <td>17:45 - 19:15</td>
+                    <td></td>
+                    <td>SIS-241 (1) [LC/A1-7] (17:45-18:30) <br> SIS-225 (1) [LTEC/A1-1] (18:30-19:15)</td>
+                    <td></td>
+                    <td>SIS-225 (1) [LC/A1-4]</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td>19:30 - 20:15</td>
+                    <td></td>
+                    <td>SIS-225 (1) [LTEC/A1-1] </td>
+                    <td></td>
+                    <td>SIS-225 (1) [LTEC/A1-1] </td>
+                    <td></td>
+                </tr>
+
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="6">Pie de tabla.</td>
+                </tr>
+                </tfoot>
+        </table>
+  
+    </div>
+
+    <!-- Tabla combinada 3 -->
+    <div class="tabla-combinada">
+        <h2>Tabla  3</h2>
+        <table>
+            <caption>Lista de Tareas</caption>
+            <thead>
+                <tr>
+                    <th>Tarea</th>
+                    <th>Estado</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lavar los platos</td>
+                    <td>En progreso</td>
+                </tr>
+                <tr>
+                    <td>Ir al supermercado</td>
+                    <td>Por hacer</td>
+                </tr>
+                <tr>
+                    <td>Estudiar para el examen</td>
+                    <td>Hecho</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Pie de tabla.</td>
+                </tr>
+                </tfoot>
+        </table>
+
+    </div>
+    <div class="tabla-combinada">
+        <table >
+            <h2>Tabla  4</h2>
+            <caption>Tabla de algo</caption>
+            <thead>
+                <tr>
+                    <th rowspan="2">Tabla Avanzada</th>
+                    <th colspan="2">Cabecera Múltiples Columnas</th>
+                </tr>
+                <tr>
+                    <th>Primera Col. Cab.</th>
+                    <th>Segunda Col. Cab.</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>Fila 1</th>
+                    <td>Fila 1 Columna 1</td>
+                    <td>Fila 1 Columna 2</td>
+                </tr>
+                <tr>
+                    <th>Fila 2</th>
+                    <td>Fila 2 Columna 1</td>
+                    <td>Fila 2 Columna 2</td>
+                </tr>
+            </tbody>
+            <tfoot>
+            <tr>
+                <td colspan="3">Pie de tabla.</td>
+            </tr>
+            </tfoot>
+        </table> 
+
+    </div>
+
+    
+
+
+</body>
+</html>

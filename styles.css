@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+   background-color:  #bab8b8 ;
+
+}
+
+nav {
+    background-color: #000000;
+    text-align: center; /* Para centrar el contenido */
+    position: fixed; 
+    width: 100%;
+    top: 0; /* La barra de navegación estará en la parte superior de la ventana */
+    z-index: 1000;
+    
+  
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0 auto; /* Para centrar horizontalmente */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 20px 50px;
+    color: #fff;
+    text-decoration: none;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    
+}
+
+
+.image-container {
+    text-align: center; /* Centrar las imágenes horizontalmente */
+}
+
+.center-image {
+    display: block; /* Hacer que las imágenes se muestren como bloques */
+    margin: 20px auto; /* Agregar un margen entre las imágenes */
+    width: 300px; /* Ancho de las imágenes */
+    height: auto;
+}
+
+.encabezados h1, .encabezados h2, .encabezados h3, .encabezados h4 { margin: .1rem 0; font-family: 'Courier New', Courier, monospace;}
+.encabezados h1 {font-size: 2rem;}
+.encabezados h2 {font-size: 1.5rem;padding-left: 20px;}
+.encabezados h3 {font-size: 1.2rem;padding-left: 40px;}
+.encabezados h4 {font-size: 1rem;font-style: italic;padding-left: 60px;}
+
+.parrafos p{ border: 1px solid #999;}
+
+.cambio-de-tema hr {border: none;border-top: 3px double #333;color: #333;overflow: visible;text-align: center;height: 5px;}
+.contacto a[href^="mailto"]::before {content: "📧 ";}
+.contacto a[href^="tel"]::before {content: "📞 ";}
+
+.contenido{
+    padding-top: 70px;
+    
+}
+
+
+/* Estilos para las tablas combinadas */
+.tabla-combinada {
+    margin-bottom: 20px; /* Añade un espacio entre las tablas */
+}
+
+.tabla-combinada table {
+    width: 100%;
+    border-collapse: collapse; /* Combina los bordes de las celdas */
+}
+
+.tabla-combinada th,
+.tabla-combinada td {
+    padding: 12px; /* Espacio alrededor del contenido en celdas */
+    text-align: left; /* Alineación del texto */
+    border: 2px solid black; /* Añade bordes negros a todas las celdas */
+}
+
+.tabla-combinada th {
+    background-color: #f2f2f2; /* Color de fondo de las celdas de encabezado */
+    font-weight: bold; /* Texto en negrita para las celdas de encabezado */
+}
+
+/* Estilos para la leyenda */
+.tabla-combinada caption {
+    caption-side: top; /* Posición de la leyenda arriba de la tabla */
+    font-weight: bold; /* Texto en negrita para la leyenda */
+    margin-bottom: 10px; /* Espacio entre la leyenda y la tabla */
+}
+
+/* Estilos para los párrafos de descripción */
+.tabla-combinada p {
+    margin-top: 8px; /* Espacio entre la tabla y el párrafo */
+}
